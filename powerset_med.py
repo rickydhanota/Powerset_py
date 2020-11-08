@@ -20,7 +20,6 @@
 #         subsets.append(currentSubset + [ele])
 #     return subsets
 
-
 #O(n*2^n) time | O(n*2^n) space
 def powerset(array):
     subsets = [[]]
